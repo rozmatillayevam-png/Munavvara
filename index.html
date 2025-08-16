@@ -1,9 +1,107 @@
-<html>
+    <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" href="./style.css">
+        <title>Exam</title>
+    <style>
+        .backcolor
+        { 
+    background-color: rgb(239, 183, 239);
+    border-radius: 30px;
+    border: 2px solid red;
+         }
+         .backcolor2
+         {
+            background-color: yellow;
+         }
+
+         textarea
+         {
+            width: 1500px;
+         }
+
+         .izoh {
+            font-size: 30px;
+            color: green;
+         }
+         button
+         { background-color: rgb(120, 120, 209);
+            width: 300px;
+            padding: 1%;
+            font-size: 30px;
+
+         }
+        .red
+        {
+            background-color: red;
+            color: white;
+            text-align: center;
+            height: 40px;
+        }
+        .black
+        {
+            background-color: black;
+
+            color: white;
+            text-align: center;
+            height: 40px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid red;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
     </head>
-    <body>
-        <h1 class="red">Munavvara</h1>
+    <body> 
+        <br>
+        <h1 style="text-align: center;" class="backcolor"> <span style="color: blueviolet;">Xush kelibsiz,</span> <mark>Virtual Zooparkga!</mark></h1>
+        <p>Bu yerda siz turli <span style="color: red;"><b><i>hayvonlarni</i></b></span> haqida qiziqarli ma'lumotlarni topishingiz mumkin.</p>
+        <br>
+        <h2 style="color: green;">Bizning hayvonlar</h2>
+        <ul>
+            <li><b>Arslonlar</b>- o'rmon qirollari</li>
+            <li><b>Fillar</b>- yer yuzidagi eng katta quruqlik hayvonlari</li>
+        </ul>
+        <h2 style="color: green; text-align: center;" class="backcolor2">Hayvonlar haqida qiziqarli faktlar</h2>
+       <center>
+         <img style="width: 650px;" src="./325170_I.jpg" alt="">
+        <img style="width: 710px;" src="./OIP (1).webp" alt="">
+       </center>
+       <h2 style="color: green;text-align: center;" class="backcolor2">hayvonlarni ko'rish</h2>
+       <center><iframe width="1200px" height="550px"  src="https://www.youtube.com/embed/VrE3gsR_lis?si=9Y7dphs-x5B3Xor7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+       <label class="izoh" for="a">O'z fikringizni yozib qoldiring</label>
+       <textarea  itemid="a" name="O'z fikringizni yozib qoldiring:" id="name"> </textarea>
+       <h3 class="izoh" for="b">Sevimli hayvoningiz qaysi</h3>
+        
+       <input type="radio" name="Arslon" id="">
+       <label for="">Arslon</label> <br>
+
+       <input type="radio">
+       <label for="">Fil</label>
+       <br>
+       <button>Jo'natish</button>
+       <h2 class="backcolor2" style="color: green;text-align: center;">Hayvonlar haiqda to'liq ma'lumotlar jadvali</h2>
+        <table>
+            <thead> <tr>
+                <th style="color: white; background-color: green; width: 120px; height: 40px;">Hayvon</th>
+                 <th style="background-color: blue; width: 1340px; color: white;">Qiziqarli fakt</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td class="red">Arslon</td>
+                <td class="black">Arslonlar kunining 20 soatini uhlash bn o'tqazadi</td>
+            </tr>
+           </tbody>
+           <tr>
+            <td class="red">Fil</td>
+            <td class="black">Fillar suvni o'z burnilari bilan ichadi</td>
+           </tr>
+         
+        </table>
+      
     </body>
-</html>
+    </html>
